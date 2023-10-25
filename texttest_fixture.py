@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
+from gilded_rose_modificado import GildedRoseModificado, Item
+
 
 from gilded_rose import *
 
@@ -27,4 +29,4 @@ if __name__ == "__main__":
         for item in items:
             print(item)
         print("")
-        GildedRose(items).update_quality()
+        GildedRoseModificado(items).update_quality()

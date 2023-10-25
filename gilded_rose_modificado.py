@@ -15,7 +15,7 @@ class GildedRoseModificado(object):
 # Método para disminuir la fecha 
     def decrease_sell_in(self, item):
         if item.name !=  "Sulfuras, Hand of Ragnaros":
-            item.seel_in -= 1
+            item.sell_in -= 1
 
 # Método para disminuir la calidad cuando la fecha de vencimiento ha pasado
     def decrease_quality_when_sell_in_has_passed(self, item):
